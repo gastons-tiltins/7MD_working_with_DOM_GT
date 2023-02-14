@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Heebo:wght@400;500;700&family=Mitr:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Heebo:wght@400;500;700&family=Roboto+Condensed&display=swap');
+
+:root {
+    --c-main-accent: red;
+    --c-body-bg: #e5e5e5;
+    --c-box-color: #1fc2ae;
+    --c-h1-color: #000000;
+    --c-h2-color: #000000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--c-body-bg);
+}
+
+.body--chagne-bg {
+    background-color: #000000;
+    --c-h1-color: #ffffff;
+    --c-h2-color: #ffffff;
+}
+
+.box--all-color {
+    background-color: #18d5e1;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.h1--style {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    color: var(--c-h1-color);
+}
+
+.box5 {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    color: var(--c-h1-color);
+}
+
+.h2--style {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c-h2-color);
+}
+
+.h2--style-white {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 162px;
+    height: 68px;
+    border-radius: 8px;
+    padding: 20px 20px;
+    border-style: hidden;
+
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ffffff;
+
+    cursor: pointer;
+    transition: opacity 0.2s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn--c1 {
+    background-color: #017187;
+}
+
+.btn--c2 {
+    background: rgba(92, 1, 135, 0.71);
+}
+
+.btn--c3 {
+    background: rgba(135, 17, 1, 0.56);
+}
+
+.btn--c4 {
+    background: rgba(1, 135, 14, 0.63);
+}
+
+.btn--c5 {
+    background: #e2cf22;
+}
+
+.btn--c6 {
+    background: #011e87;
+}
+
+.btn--c7 {
+    background: #18d5e1;
+}
+
+.form--style {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    color: #444;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-style {
+    background-color: var(--c-box-color);
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box--yellow {
+    background-color: #e2cf22;
+}
+
+.box--hide {
+    opacity: 0;
+}
+
+#result {
+    padding-left: 18px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+// ---------------------------
+
+// Nospiežot uz 1. pogas, 1. kvadrāta krāsa nomainās uz
+// dzeltenu krāsu.
+
+// Nospiežot uz 2. pogas, 2. kvadrātā teksts nomainās
+// uz SUCCESS
+// Nospiežot uz 3. pogas, 3. kvadrāts kļūst neredzams
+
+// Nospiežot uz 4. pogas, 4. kvadrāts kļūst neredzams, nospiežot
+// vēlreiz, tas atkal kļūst redzams.
+
+// Nospiežot uz 5. pogas, 5. kvadrāta krāsa nomainās uz vienu no 5
+// iepriekš izdomātām krāsām. Katru reizi uz citu, bet var atkārtoties.
+
+// Nospiežot uz 6. pogas, 6.kvadrātā skaitlis sāk ik pa 3 sekundēm
+// palielināties par 1. Kad tiek līdz 10, apstājas.
+
+// Nospiežot uz 7. pogas, visi kvadrādi nomaina krāsu uz #18D5E1
+// un lapas background krāsa nomainas uz #000000
+
+// Uzliekot peli virs 1. kvadrāta, tam krāsa nomainas uz sarkanu
+
+// Ekstra: Uzliekot peli virs 5. kvadrāta, ieslēdzas taimeris un skaita līdz 10,
+// noņemot peli resetojas uz 0 un apstājas.
+
+// Ekstra: Rakstot tekstu input laukā, tas parādās arī zem inputa
