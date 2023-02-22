@@ -19,7 +19,6 @@ button1.addEventListener('click', () => {
 
 // Button 2
 button2.addEventListener('click', () => {
-    //const success = document.querySelector('.fail--text');
     const success = document.getElementsByClassName('fail--text');
     success[0].innerHTML = 'SUCCESS';
 });
@@ -142,7 +141,7 @@ const inputHandler = function (a: any) {
 inputForm.addEventListener('input', inputHandler);
 inputForm.addEventListener('propertychange', inputHandler);
 
-// +++++++++ UZDEVUMI ++++++++
+// +++++++++ UZDEVUMS ++++++++
 // ---------------------------
 
 // Nospiežot uz 1. pogas, 1. kvadrāta krāsa nomainās uz

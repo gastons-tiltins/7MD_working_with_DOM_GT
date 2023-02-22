@@ -1,10 +1,15 @@
-# Working with DOM elements
-To start coding open your terminal and write
+## Working with DOM elements native JS
+
+Preview:
+
+![alt text](https://kastad.nu/gitHubRepoImages/md7.png)
+
+Instructions:
+
 ```
 npm i
 ```
 
-When all packages have been installed run:
 ```
 npm start
 ```
